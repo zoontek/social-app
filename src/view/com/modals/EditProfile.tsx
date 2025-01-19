@@ -1,7 +1,6 @@
 import {useCallback, useState} from 'react'
 import {
   ActivityIndicator,
-  KeyboardAvoidingView,
   ScrollView,
   StyleSheet,
   TextInput,
@@ -9,6 +8,7 @@ import {
   View,
 } from 'react-native'
 import {Image as RNImage} from 'react-native-image-crop-picker'
+import {KeyboardAvoidingView} from 'react-native-keyboard-controller'
 import Animated, {FadeOut} from 'react-native-reanimated'
 import {LinearGradient} from 'expo-linear-gradient'
 import {AppBskyActorDefs} from '@atproto/api'
