@@ -5,6 +5,7 @@ import '#/view/icons'
 
 import React, {useEffect, useState} from 'react'
 import {GestureHandlerRootView} from 'react-native-gesture-handler'
+import {KeyboardProvider} from 'react-native-keyboard-controller'
 import {RootSiblingParent} from 'react-native-root-siblings'
 import {
   initialWindowMetrics,
@@ -16,7 +17,6 @@ import * as SystemUI from 'expo-system-ui'
 import {msg} from '@lingui/macro'
 import {useLingui} from '@lingui/react'
 
-import {KeyboardControllerProvider} from '#/lib/hooks/useEnableKeyboardController'
 import {QueryProvider} from '#/lib/react-query'
 import {Provider as StatsigProvider, tryFetchGates} from '#/lib/statsig/statsig'
 import {s} from '#/lib/styles'
@@ -201,7 +201,7 @@ function App() {
   return (
     <GeolocationProvider>
       <A11yProvider>
-        <KeyboardControllerProvider>
+        <KeyboardProvider enabled={true}>
           <SessionProvider>
             <PrefsStateProvider>
               <I18nProvider>
@@ -230,7 +230,7 @@ function App() {
               </I18nProvider>
             </PrefsStateProvider>
           </SessionProvider>
-        </KeyboardControllerProvider>
+        </KeyboardProvider>
       </A11yProvider>
     </GeolocationProvider>
   )
