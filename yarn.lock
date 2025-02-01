@@ -16091,10 +16091,10 @@ react-native-drawer-layout@^4.1.1:
   dependencies:
     use-latest-callback "^0.2.1"
 
-react-native-edge-to-edge@^1.4.2:
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/react-native-edge-to-edge/-/react-native-edge-to-edge-1.4.2.tgz#8e922f9c89b445603778279da6383a5576319a90"
-  integrity sha512-qs1V5BzL+vyawUqe8ogHQahigKdClp0PP4ihHYvjtDdbLFb6F837shIIacL72Zz1zu5dwI1eO3SYe2PSjqlk6g==
+react-native-edge-to-edge@^1.4.3:
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/react-native-edge-to-edge/-/react-native-edge-to-edge-1.4.3.tgz#755c77f9bee94392166a7bdf46618886b54e0c77"
+  integrity sha512-fYchwiQ2D/8NzcvJK1sD9Cm25GFQfsLgYmGpohoSpRxwBwR5UCL0wUf4scoQgYncRh9Hmc2t8ml/sikTwMM3ng==
 
 react-native-gesture-handler@2.20.2:
   version "2.20.2"
@@ -16137,10 +16137,10 @@ react-native-is-edge-to-edge@^1.1.6:
   resolved "https://registry.yarnpkg.com/react-native-is-edge-to-edge/-/react-native-is-edge-to-edge-1.1.6.tgz#69ec13f70d76e9245e275eed4140d0873a78f902"
   integrity sha512-1pHnFTlBahins6UAajXUqeCOHew9l9C2C8tErnpGC3IyLJzvxD+TpYAixnCbrVS52f7+NvMttbiSI290XfwN0w==
 
-react-native-keyboard-controller@^1.14.5:
-  version "1.14.5"
-  resolved "https://registry.yarnpkg.com/react-native-keyboard-controller/-/react-native-keyboard-controller-1.14.5.tgz#ec1e7d1fb8ee18b69ced4d8ddd6fd99bdaaf14bb"
-  integrity sha512-Cx7+SWI/P50i4PKJZN4T43RqoFkJ3GBoxjQ5ysrzZGoImHTF4j3atSwcBQGMmunKCem1yGOOQ84or+Vbcor6wQ==
+react-native-keyboard-controller@^1.16.1:
+  version "1.16.1"
+  resolved "https://registry.yarnpkg.com/react-native-keyboard-controller/-/react-native-keyboard-controller-1.16.1.tgz#d0a830a2dfba95622fc52c72c89cc3afd88fdfa9"
+  integrity sha512-6Yynx9P+/bzpbYvi5eNZ7FQadm5ZyXpUiXHjaUGQP0KQQGSPpS4CohpLhDZ5z5mqkU2QeJmUzMzGPF+q6MjNfw==
   dependencies:
     react-native-is-edge-to-edge "^1.1.6"
 
