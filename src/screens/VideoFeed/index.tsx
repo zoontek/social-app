@@ -8,6 +8,7 @@ import {
   ViewabilityConfig,
   ViewToken,
 } from 'react-native'
+import {SystemBars} from 'react-native-edge-to-edge'
 import {
   Gesture,
   GestureDetector,
@@ -139,6 +140,7 @@ export function VideoFeed({}: NativeStackScreenProps<
   return (
     <ThemeProvider theme="dark">
       <Layout.Screen noInsetTop style={{backgroundColor: 'black'}}>
+        <SystemBars style={{statusBar: 'light', navigationBar: 'light'}} />
         <View
           style={[
             a.absolute,
